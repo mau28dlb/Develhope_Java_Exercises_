@@ -1,4 +1,4 @@
-package javaex_;
+package javaex._1;
 
 public class Introduction_to_java {
     //Run this like before to execute all the exercises
