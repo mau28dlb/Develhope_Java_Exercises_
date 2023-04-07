@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08b4bcbc-54f0-4ea5-83ff-2cc68b23b0ea" name="Changes" comment="add advanced string ex">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="08b4bcbc-54f0-4ea5-83ff-2cc68b23b0ea" name="Changes" comment="add switch exercise">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +51,26 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.More_string_stringbuilder">
-    <configuration name="Advanced_number_operations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaex._5.Advanced_number_operations" />
+  <component name="RunManager" selected="Application.recap_challenges">
+    <configuration name="Advanced_booleans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaex._9.Advanced_booleans" />
       <module name="Develhope_Java_Exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaex._5.*" />
+          <option name="PATTERN" value="javaex._9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="If_booleans" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaex._8.If_booleans" />
+      <module name="Develhope_Java_Exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaex._8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Number_operations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaex._4.Number_operations" />
+    <configuration name="recap_challenges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaex._11.recap_challenges" />
       <module name="Develhope_Java_Exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaex._4.*" />
+          <option name="PATTERN" value="javaex._11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,25 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Strings_ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaex._6.Strings_ex" />
+    <configuration name="switch_statement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaex._10.switch_statement" />
       <module name="Develhope_Java_Exercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaex._6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Variables_naming_comments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaex._3.Variables_naming_comments" />
-      <module name="Develhope_Java_Exercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaex._3.*" />
+          <option name="PATTERN" value="javaex._10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.recap_challenges" />
+        <item itemvalue="Application.switch_statement" />
+        <item itemvalue="Application.Advanced_booleans" />
+        <item itemvalue="Application.If_booleans" />
         <item itemvalue="Application.More_string_stringbuilder" />
-        <item itemvalue="Application.Strings_ex" />
-        <item itemvalue="Application.Advanced_number_operations" />
-        <item itemvalue="Application.Number_operations" />
-        <item itemvalue="Application.Variables_naming_comments" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +171,35 @@
       <option name="project" value="LOCAL" />
       <updated>1680708580252</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change git ignore file">
+      <created>1680709482341</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680709482341</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add if statements ex">
+      <created>1680780810346</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680780810346</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add advanced booleans exercise">
+      <created>1680862030238</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680862030238</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add switch exercise">
+      <created>1680865022023</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680865022023</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +234,10 @@
     <MESSAGE value="add new files" />
     <MESSAGE value="add new java ex" />
     <MESSAGE value="add advanced string ex" />
-    <option name="LAST_COMMIT_MESSAGE" value="add advanced string ex" />
+    <MESSAGE value="change git ignore file" />
+    <MESSAGE value="add if statements ex" />
+    <MESSAGE value="add advanced booleans exercise" />
+    <MESSAGE value="add switch exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="add switch exercise" />
   </component>
 </project>
