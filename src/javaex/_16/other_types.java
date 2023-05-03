@@ -75,7 +75,20 @@ public class other_types {
             LocalDate todaysDate = LocalDate.now();
             System.out.println("Today is: " + todaysDate);
 
+            System.out.println(todaysDate.getDayOfMonth());
+            System.out.println(todaysDate.getDayOfYear());
+
+
             LocalDate dayInThePast = LocalDate.of(1993, 05, 28);
+
+
+            if (dayInThePast.isBefore(todaysDate)){
+                System.out.println(dayInThePast + " è un giorno di diversi anni fa!");
+            }
+
+            System.out.println(dayInThePast.getMonthValue());
+            System.out.println(dayInThePast.getDayOfWeek());
+            System.out.println("I was born on " + dayInThePast + ". It was " + dayInThePast.getDayOfWeek() + ".");
 
         }
     }
