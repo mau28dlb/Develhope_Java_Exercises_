@@ -55,15 +55,18 @@ public class functions_methods {
                 // Call your function
             }
         }
-        static String arrayNamesFormat(String name){
-            // non conosco il comando per controllare se all'interno di un item della lista c'è un numero
-            // quindi ho "risolto così":
-            if (name.contains("0")){
-                return "Invalid";
-            } else {
-                return name.toUpperCase().trim();
+        static String arrayNamesFormat(String name) {
+            /* penso che così possa andar bene! */
+
+            for (int i = 0; i < name.length(); i++) {
+
+                if (Character.isDigit(name.charAt(i))) {
+                    return "Invalid";
+                }
             }
+                return name.toUpperCase().trim();
         }
+
 
         /**
          * 3: Write a function that prints out every variable seen in the code. It should not return anything
