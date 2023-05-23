@@ -18,7 +18,7 @@ public class Dog extends Animal {
         this.breed = breed;
     }
 
-    public static double runSpeedMetersPerSecond(double height) {
+    public double runSpeedMetersPerSecond(double height) {
         double dogHeight;
         return dogHeight = height * 2;
     }

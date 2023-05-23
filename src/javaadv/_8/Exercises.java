@@ -58,9 +58,9 @@ public class Exercises {
             Fish fish = new Fish(0.3, 0.5, "Catfish");
             Bird bird = new Bird(0.4, 2, 1.30);
 
-           double dogSpeed = Dog.runSpeedMetersPerSecond(dog.getHeight());
-           double fishSpeed = Fish.swimSpeedMetersPerSecond(fish.getWeight());
-           double birdSpeed = Bird.flySpeedMetersPerSecond(bird.getWingSpan());
+           double dogSpeed = dog.runSpeedMetersPerSecond(dog.getHeight());
+           double fishSpeed = fish.swimSpeedMetersPerSecond(fish.getWeight());
+           double birdSpeed = bird.flySpeedMetersPerSecond(bird.getWingSpan());
 
            if (dogSpeed > fishSpeed && fishSpeed > birdSpeed){
                System.out.println("Dog is the fastest one with " + dogSpeed + " m/s");
@@ -69,7 +69,6 @@ public class Exercises {
            } else if (birdSpeed > fishSpeed && birdSpeed > dogSpeed){
                System.out.println("Bird is the fastest one with " + birdSpeed + " m/s");
            }
-
         }
     }
 
