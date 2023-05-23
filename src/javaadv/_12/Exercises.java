@@ -50,7 +50,7 @@ import java.util.stream.IntStream;
             System.out.println("\nExercise 2: ");
             // Your code here
             List<Integer> ourNumbers = IntStream.range(1, 10).boxed().toList();
-            ourNumbers.stream().filter(numbers -> numbers % 2 != 0).forEach(System.out::println);
+            ourNumbers.stream().filter(numbers -> numbers % 2 != 0).collect(Collectors.toSet()).forEach(System.out::println);
         }
 
         /**
