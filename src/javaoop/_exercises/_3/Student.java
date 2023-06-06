@@ -51,7 +51,7 @@ public class Student {
     }
 
 
-    public int getAge(){
+     public int getAge(){
         howManyAgeValues = howManyAgeValues + 1;
         return this.age;
     }
