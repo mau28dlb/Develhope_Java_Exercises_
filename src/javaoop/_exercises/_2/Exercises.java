@@ -33,7 +33,7 @@ public class Exercises {
         // Write create students
             students.add(new Student(studentNames.get(i), studentAges.get(i)));
             System.out.println("name = " + students.get(i).name + ", age = " + students.get(i).age );
-            
+
 
         }
 

@@ -22,7 +22,7 @@ public class Student {
 
 
 
-    void setName(String name) {
+    public void setName(String name) {
         if (name.length() > 10) {
             System.out.println("Too many characters, try again");
         } else {
@@ -30,19 +30,19 @@ public class Student {
         }
     }
 
-    String getName() {
+    public String getName() {
         return this.name;
     }
 
-    void setSurname(String surname) {
+    public void setSurname(String surname) {
         this.surname = surname;
     }
 
-    String getSurname() {
+    public String getSurname() {
         return this.surname;
     }
 
-    void setAge(int age) {
+    public void setAge(int age) {
         if (age >= 18 && age <= 50) {
             this.age = age;
         } else {
@@ -50,16 +50,17 @@ public class Student {
         }
     }
 
-    int getAge(){
+
+    public int getAge(){
         howManyAgeValues = howManyAgeValues + 1;
         return this.age;
     }
 
-    int getHowManyAgeValues(){
+    public int getHowManyAgeValues(){
        return this.howManyAgeValues;
     }
 
-    void setRoom(int roomNumber) {
+    public void setRoom(int roomNumber) {
         if (roomNumber > 200) {
             System.out.println("invalid number");
         } else {
@@ -67,11 +68,11 @@ public class Student {
         }
     }
 
-    int getRoom() {
+    public int getRoom() {
         return this.roomNumber;
     }
 
-    void setIdNumber(int idNumber) {
+    public void setIdNumber(int idNumber) {
         if (idNumber > 999999) {
             System.out.println("Invalid value");
         } else {
@@ -79,7 +80,7 @@ public class Student {
         }
     }
 
-    int getIdNumber() {
+    public int getIdNumber() {
         return this.idNumber;
     }
 
